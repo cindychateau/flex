@@ -1,0 +1,22 @@
+div, section {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
+}
+
+.contenedor {
+    width: 1200px; 
+    height: 300px; 
+    display: flex; 
+    /* align-items: center; flex-star, flex-end, center, stretch */
+    /* justify-content: center; flex-start, flex-end, center, space-between, space-around, space-evenly */
+    /* flex-direction: row; row, column */
+}
+
+.s1, .s2, .s4 {
+    flex: 1;
+}
+
+.s3 {
+    flex: 6;
+}
